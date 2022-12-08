@@ -1,9 +1,5 @@
-from flask import Flask
-
-# 2. Create an app, being sure to pass __name__
-app = Flask(__name__)
-
-
+# Import Flask
+from flask import Flask, jsonify
 
 # Dependencies and Setup
 import numpy as np
